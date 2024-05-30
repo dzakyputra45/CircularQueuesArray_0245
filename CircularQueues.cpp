@@ -62,4 +62,26 @@ public:
 				FRONT = FRONT + 1;
 		}
     }
+
+    void display(){
+
+        int FRONT_Position = FRONT;
+        int REAR_Position = REAR;
+
+        //cek apakah antrian kosong
+        if (FRONT_Position == -1) {
+            cout << "Queue is Empty\n";
+            return;
+        }
+        
+        cout << "\nElement in the queue are.....\n";
+
+
+        
+    }
+
+
+
+
+
 };
